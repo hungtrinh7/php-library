@@ -1,0 +1,20 @@
+{
+    "name": "hungtrinh7/library",
+    "type": "library",
+    "description": "Test for developer",
+    "keywords": ["library", "book"],
+    "authors": [
+    	{
+    		"name": "Hung TRINH",
+    		"email": "hung.trinh7@gmail.com",
+    		"homepage": "http://hungtrinh.fr/",
+            "role": "Developer"
+    	}
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+      "psr-4": { "": "app/" }
+    }
+}
